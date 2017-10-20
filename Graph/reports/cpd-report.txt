@@ -1,0 +1,37 @@
+Found a 3 line (44 tokens) duplication in the following files: 
+Starting at line 143 of D:\tectree\Code\eclipse-workspace\Lab1-used-in-Lab4\Graph\src\Graph.java
+Starting at line 204 of D:\tectree\Code\eclipse-workspace\Lab1-used-in-Lab4\Graph\src\Graph.java
+
+        for (int j = 0;j < words.size(); j++) {
+          for (int k = 0; k < words.size(); k++) {
+            if (value[j][k] == 0)
+=====================================================================
+Found a 3 line (35 tokens) duplication in the following files: 
+Starting at line 175 of D:\tectree\Code\eclipse-workspace\Lab1-used-in-Lab4\Graph\src\Graph.java
+Starting at line 203 of D:\tectree\Code\eclipse-workspace\Lab1-used-in-Lab4\Graph\src\Graph.java
+
+        }
+        for (int j = 0; j < words.size(); j ++) {
+      for (int k = 0; k < words.size(); k ++) {
+=====================================================================
+Found a 2 line (34 tokens) duplication in the following files: 
+Starting at line 52 of D:\tectree\Code\eclipse-workspace\Lab1-used-in-Lab4\Graph\src\Graph.java
+Starting at line 281 of D:\tectree\Code\eclipse-workspace\Lab1-used-in-Lab4\Graph\src\Graph.java
+
+      for (int i = 0; i < words.size(); i ++) {
+        for (int j = 0; j < words.size(); j ++) {
+=====================================================================
+Found a 2 line (34 tokens) duplication in the following files: 
+Starting at line 143 of D:\tectree\Code\eclipse-workspace\Lab1-used-in-Lab4\Graph\src\Graph.java
+Starting at line 176 of D:\tectree\Code\eclipse-workspace\Lab1-used-in-Lab4\Graph\src\Graph.java
+
+        for (int j = 0;j < words.size(); j++) {
+          for (int k = 0; k < words.size(); k++) {
+=====================================================================
+Found a 3 line (31 tokens) duplication in the following files: 
+Starting at line 284 of D:\tectree\Code\eclipse-workspace\Lab1-used-in-Lab4\Graph\src\Graph.java
+Starting at line 287 of D:\tectree\Code\eclipse-workspace\Lab1-used-in-Lab4\Graph\src\Graph.java
+
+          if (pathFlag[i][j]) {
+            tempPath.append(words.get(i) + "->" + words.get(j) 
+                + "[label=\"" + value[i][j] + "\", color=\"red\"];");
